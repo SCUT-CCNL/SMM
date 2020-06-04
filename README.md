@@ -16,17 +16,17 @@ Xu Z, Yuan H. Forum Duplicate Question Detection by Domain Adaptive Semantic Mat
 
 ### Files
 
-[preprocess.py]() for data preprocess
+[preprocess.py](https://github.com/SCUT-CCNL/SMM/blob/master/preprocess.py) for data preprocess
 
-[Semantic_Matching.py]() is the Semantic Matching Model
+[Semantic_Matching.py](https://github.com/SCUT-CCNL/SMM/blob/master/Semantic_Matching.py) is the Semantic Matching Model
 
- [train_smm.py]() is the code for training the Semantic Matching Model
+ [train_smm.py](https://github.com/SCUT-CCNL/SMM/blob/master/train_smm.py) is the code for training the Semantic Matching Model
 
 ### Prepare for run
 
 #### Word embedding
 
-The dimension of both Chinese and English word embedding are set to be 300. You need to download the pre-trained 300-D Chinese word vector (e.g [pre-trained w2v](<https://github.com/Embedding/Chinese-Word-Vectors>)) and 300-D English word vector (e.g [pre-trained glove](<https://nlp.stanford.edu/projects/glove/>)) , put them into your local path and revise the file name in line 111 and line 136 of  [train_smm.py]() 
+The dimension of both Chinese and English word embedding are set to be 300. You need to download the pre-trained 300-D Chinese word vector (e.g [pre-trained w2v](<https://github.com/Embedding/Chinese-Word-Vectors>)) and 300-D English word vector (e.g [pre-trained glove](<https://nlp.stanford.edu/projects/glove/>)) , put them into your local path and revise the file name in line 111 and line 136 of  [train_smm.py](https://github.com/SCUT-CCNL/SMM/blob/master/train_smm.py) 
 
 #### The Format of the Data Set
 
