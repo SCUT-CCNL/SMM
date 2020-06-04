@@ -8,7 +8,7 @@ Xu Z, Yuan H. Forum Duplicate Question Detection by Domain Adaptive Semantic Mat
 
 ### Requirements
 
-- Python 2.x
+- Python 2.7
 - [TensorFlow](https://www.tensorflow.org)
 - [Scikit-Learn](http://scikit-learn.org/stable/index.html)
 - [Numpy](http://www.numpy.org/)
